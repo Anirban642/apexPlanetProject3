@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const btn = document.createElement("button");
       btn.textContent = choice;
       btn.onclick = () => {
-        btn.style.background = i === q.a ? "#66bb6a" : "#ef5350";
+        btn.style.background = i === q.a ? "#66bb6a"  : "#ef5350";
         Array.from(choicesEl.children).forEach(b => b.disabled = true);
       };
       choicesEl.appendChild(btn);
